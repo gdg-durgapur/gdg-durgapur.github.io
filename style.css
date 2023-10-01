@@ -1,3 +1,13 @@
+@font-face {
+  font-family: GoogleSansBold;
+  src: url(fonts/GoogleSans-Bold-v1.27.ttf);
+}
+
+@font-face {
+  font-family: GoogleSansRegular;
+  src: url(fonts/GoogleSans-Regular_0.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +17,7 @@ html {
   cursor: default;
 }
 body {
-  font-family: "Roboto", sans-serif; /* Default font */
+  font-family: GoogleSansRegular, sans-serif; /* Default font */
   width: 100%;
   height: 100%;
   text-align: center;
@@ -20,6 +30,10 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+h1 {
+  font-family: GoogleSansBold, sans-serif;
+}
+
 h2 {
   font-weight: 300;
   margin-bottom: 25px;
